@@ -55,3 +55,10 @@ header.entry-header h1 {
 .service {
   padding: 150px 0;
 }
+
+.blockquote {
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  border-left: .25rem solid #eceeef;
+  }
