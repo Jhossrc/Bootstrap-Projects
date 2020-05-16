@@ -45,11 +45,14 @@ header.entry-header {
 }
 header.entry-header h1 {
   background-color: #C2185B;
-  display: inline-block;
+  margin: .8rem auto;
+  width: 80%;
+  display: block;
   padding:10px 20px;
   color: white;
   text-transform: uppercase;
   font-family: 'Anton', sans-serif;
+  text-align: center;
 }
 
 .service {
@@ -62,3 +65,12 @@ header.entry-header h1 {
   font-size: 1.25rem;
   border-left: .25rem solid #eceeef;
   }
+
+article img.float-left {
+  margin-right: 1.2rem;
+}
+
+article img.float-right {
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+}
