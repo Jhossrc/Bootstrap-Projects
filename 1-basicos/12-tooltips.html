@@ -25,8 +25,7 @@
     <main class="container">
         <div class="row">
             <div class="col-12">
-            
-                  
+              <p class="display-4">Conoce nuestros servicios de <a href="#" data-toggle="tooltip" title="Precio especial a diseñadores">Diseño Web</a></p>                  
             </div>
         </div>
     </main>
@@ -36,9 +35,19 @@
     
 
     <script src="js/jquery.slim.js"></script>
-    <script src="js/tether.min.js"></script>
+    <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+          trigger: 'click', // hover
+          placement: 'top'
+        });
+      });
+    </script>
+
 
   </body>
 </html>
