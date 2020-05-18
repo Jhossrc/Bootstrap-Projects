@@ -149,3 +149,32 @@ h4 {
 .btn-success:hover {
   background-color: var(--primary-dark);
 }
+
+/* Testimoniales */
+.testimoniales {
+  background-color: var(--primary);
+}
+
+.testimoniales .carousel-item {
+  padding-left: 2rem;
+}
+
+.testimoniales .testimonial-texto {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+}
+
+.testimoniales .testimonial-texto::before {
+  content: '\201C';
+  font-size: 4rem;
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  font-weight: 900;
+}
+
+.testimoniales span {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
