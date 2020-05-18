@@ -89,3 +89,8 @@ h4 {
   font-weight: 700;
   color: var(--white-primary);
 }
+
+.sobre-nosotros h3{
+  font-size: 1rem;
+  font-weight: 700;
+}
