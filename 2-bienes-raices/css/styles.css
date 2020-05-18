@@ -1,6 +1,6 @@
 :root {
-    --primario: #71b100;
-    --secundario: #e08709;
+    --primary: #71b100;
+    --secondary: #e08709;
 }
 body {
     font-family: 'Lato', sans-serif;
