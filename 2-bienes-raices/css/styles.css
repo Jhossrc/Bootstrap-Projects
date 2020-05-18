@@ -89,8 +89,22 @@ h4 {
   font-weight: 700;
   color: var(--white-primary);
 }
-
+/* Sobre Nosotros */
 .sobre-nosotros h3{
   font-size: 1rem;
   font-weight: 700;
+}
+
+/* Anuncios */
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-precio {
+  font-size: 1.1;
+  color: var(--primary);
+}
+
+.card-descripcion img{
+  margin-right: .5rem;
 }
