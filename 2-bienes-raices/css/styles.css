@@ -1,6 +1,7 @@
 :root {
   --primary: hsl(82, 100%, 35%);
   --primary-light: hsl(82, 100%, 40%);
+  --primary-dark: hsl(82, 100%, 25%);
   --secondary: hsl(35, 92%, 46%);
   --white-primary: hsl(0, 0%, 100%);
   --white-secondary: hsla(0, 0%, 100%, 0.75);
@@ -123,4 +124,28 @@ h4 {
 .encuentra h3 {
   font-size: 2.2rem;
   font-weight: 900;
+}
+
+/* Blog */
+.entrada h3::after{
+  content: "";
+  display: block;
+  width: 8rem;
+  height: .2rem;
+  background-color: var(--primary);
+  margin-top: .5rem;
+}
+
+.meta span {
+  color: var(--secondary);
+}
+
+.btn-success {
+  background-color: var(--primary);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-success:hover {
+  background-color: var(--primary-dark);
 }
