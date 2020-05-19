@@ -8,6 +8,13 @@
   --color-secondary: #8cbc00;
 }
 
+/* Globales */
+.imagen-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 /* Titulo */
 .titulo {
   font-family: var(--font-primary);
@@ -18,15 +25,21 @@
 }
 
 .nav-link {
-  color: black;
+  color: black!important;
   transition: ease-in .2s all;
 }
 
 .nav-link:hover {
-  color: var(--color-primary);
+  color: var(--color-primary)!important;
 }
 
 .navbar {
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
+}
+
+/* Imagen Principal */
+.imagen-principal {
+  background-image: url(../img/principal.jpg);
+  height: 35rem;
 }
