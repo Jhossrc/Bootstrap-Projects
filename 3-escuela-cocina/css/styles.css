@@ -9,6 +9,23 @@ body {
   color: var(--dark);
 }
 
+.nav-link {
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.bg-primary {
+    background-color: var(--primary)!important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary)!important;
+}
+
 .bg-vino {
   background-image: url(../img/principal1.jpg);
 }
@@ -42,4 +59,24 @@ body {
   .imagen-inferior .bg-comida {
     order: unset;
   }
+}
+
+.imagen-superior .contenido {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.imagen-inferior .contenido {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.contenido {
+    font-size: 1.2rem;
+}
+
+.contenido p{
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 2rem;
 }
