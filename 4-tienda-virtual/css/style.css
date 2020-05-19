@@ -1,0 +1,9 @@
+:root {
+  /* Fuentes */
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Raleway", sans-serif;
+
+  /* Colores */
+  --color-primary: #037bc0;
+  --color-secondary: #8cbc00;
+}
