@@ -7,3 +7,26 @@
   --color-primary: #037bc0;
   --color-secondary: #8cbc00;
 }
+
+/* Titulo */
+.titulo {
+  font-family: var(--font-primary);
+}
+
+.titulo span {
+  color: var(--color-primary);
+}
+
+.nav-link {
+  color: black;
+  transition: ease-in .2s all;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+}
+
+.navbar {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
