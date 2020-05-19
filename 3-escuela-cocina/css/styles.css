@@ -103,3 +103,37 @@ p {
     font-weight: 300;
     font-size: 1.6rem;
 }
+
+/* Proximas clases */
+
+.clases {
+  background-color: var(--gray);
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.badge-secondary {
+  color: var(--dark);
+  background-color: var(--secondary);
+}
+
+.card-meta span {
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: var(--primary);
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.card-body p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.card-body a {
+  color: var(--primary);
+}
