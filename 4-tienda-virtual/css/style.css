@@ -21,7 +21,7 @@ h2 {
 }
 
 .bg-primary {
-  background-color: var(--color-primary)!important;
+  background-color: var(--color-primary) !important;
 }
 
 /* Titulo */
@@ -34,12 +34,12 @@ h2 {
 }
 
 .nav-link {
-  color: black!important;
-  transition: ease-in .2s all;
+  color: black !important;
+  transition: ease-in 0.2s all;
 }
 
 .nav-link:hover {
-  color: var(--color-primary)!important;
+  color: var(--color-primary) !important;
 }
 
 .navbar {
@@ -83,11 +83,20 @@ h2 {
 }
 
 .info-producto .btn-success {
-  background-color: var(--color-secondary)!important;
-  border-color: var(--color-secondary)!important;
+  background-color: var(--color-secondary) !important;
+  border-color: var(--color-secondary) !important;
 }
 
 .info-producto .btn-success:hover {
-  background-color: var(--color-secondary-dark)!important;
-  border-color: var(--color-secondary-dark)!important;
+  background-color: var(--color-secondary-dark) !important;
+  border-color: var(--color-secondary-dark) !important;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid #e1e1e1;
+}
+
+.footer-menu .nav-link {
+  color: #666666;
 }
