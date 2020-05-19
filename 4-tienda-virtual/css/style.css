@@ -6,6 +6,7 @@
   /* Colores */
   --color-primary: #037bc0;
   --color-secondary: #8cbc00;
+  --color-secondary-dark: #678a00;
 }
 
 /* Globales */
@@ -73,4 +74,20 @@ h2 {
 
 .imagen-nosotros {
   background-image: url(../img/nosotros.jpg);
+}
+
+/* Productos */
+
+.info-producto .precio {
+  font-size: 1.8rem;
+}
+
+.info-producto .btn-success {
+  background-color: var(--color-secondary)!important;
+  border-color: var(--color-secondary)!important;
+}
+
+.info-producto .btn-success:hover {
+  background-color: var(--color-secondary-dark)!important;
+  border-color: var(--color-secondary-dark)!important;
 }
