@@ -8,28 +8,28 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg-danger {
-    background-color: var(--color-primary)!important;
+  background-color: var(--color-primary) !important;
 }
 
 .bg-success {
-    background-color: var(--color-secondary)!important;
+  background-color: var(--color-secondary) !important;
 }
 
 .bg-warning {
-    background-color: var(--color-tertiary)!important;
+  background-color: var(--color-tertiary) !important;
 }
 
 .bg-secondary {
-    background-color: var(--color-quaternary)!important;
+  background-color: var(--color-quaternary) !important;
 }
 
 /* Navegación */
 .fixed-top {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .fixed-top.bg-success {
@@ -39,15 +39,15 @@ body {
 }
 
 .fixed-top .nav-link {
-  color: white!important;
+  color: white !important;
 }
 
 .fixed-top .nav-link:hover {
-  color: var(--color-tertiary-dark)!important;
+  color: var(--color-tertiary-dark) !important;
 }
 
 .fixed-top .active {
-  background-color: var(--color-quaternary)!important;
+  background-color: var(--color-quaternary) !important;
 }
 
 .navbar-brand {
@@ -60,7 +60,7 @@ body {
 }
 
 a.navbar-brand.text-light:hover {
-  color: var(--color-tertiary-dark)!important;
+  color: var(--color-tertiary-dark) !important;
 }
 
 /* Video header */
@@ -114,67 +114,67 @@ a.navbar-brand.text-light:hover {
 }
 
 @media screen and (min-width: 992px) {
-    .informacion-concierto {
-      top: 35%;
-    }
+  .informacion-concierto {
+    top: 35%;
+  }
 }
 
 .informacion-concierto h1 {
-    font-size: 3rem;
-    line-height: 6rem;
+  font-size: 3rem;
+  line-height: 6rem;
 }
 
 @media screen and (min-width: 992px) {
-    .informacion-concierto h1{
-      font-size: 4rem;
-      line-height: unset;
-    }
+  .informacion-concierto h1 {
+    font-size: 4rem;
+    line-height: unset;
+  }
 }
 
 .informacion-concierto h1 span,
 .informacion-concierto p {
-    font-weight: 700;
-    -webkit-box-shadow: 0px 17px 24px -13px rgba(0,0,0,0.34);
-    -moz-box-shadow: 0px 17px 24px -13px rgba(0,0,0,0.34);
-    box-shadow: 0px 17px 24px -13px rgba(0,0,0,0.34);
+  font-weight: 700;
+  -webkit-box-shadow: 0px 17px 24px -13px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 17px 24px -13px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 17px 24px -13px rgba(0, 0, 0, 0.34);
 }
 
 .informacion-concierto p {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .informacion-concierto .text-dark,
 .sobre-festival .text-dark {
-    color: var(--color-primary)!important;
-    font-weight: 700;
+  color: var(--color-primary) !important;
+  font-weight: 700;
 }
 
 /* Lineup */
 .separador::after {
-    content: '';
-    display: block;
-    height: 120px;
-    width: 300px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 120px;
-    margin: 0 auto;
+  content: "";
+  display: block;
+  height: 120px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120px;
+  margin: 0 auto;
 }
 
 .rock::after {
-    background-image: url(../img/guitarra.png);
+  background-image: url(../img/guitarra.png);
 }
 
-.dj::after{
-    background-image: url(../img/dj.png);
+.dj::after {
+  background-image: url(../img/dj.png);
 }
 
 .horario.bg-warning li:nth-child(even) {
-    background-color: var(--color-tertiary-dark)!important;
+  background-color: var(--color-tertiary-dark) !important;
 }
 
 .horario.bg-success li:nth-child(even) {
-    background-color: var(--color-secondary-dark)!important;
+  background-color: var(--color-secondary-dark) !important;
 }
 
 /* Fecha */
@@ -187,7 +187,7 @@ a.navbar-brand.text-light:hover {
 }
 
 .fecha span::before {
-  content: '-';
+  content: "-";
 }
 
 .fecha span:first-child::before {
@@ -200,10 +200,10 @@ a.navbar-brand.text-light:hover {
 }
 
 .boletos .active {
-  background-color: var(--color-quaternary)!important;
-  border-color:  var(--color-quaternary)!important;
+  background-color: var(--color-quaternary) !important;
+  border-color: var(--color-quaternary) !important;
 }
 
 .list-group-item-success {
-  background-color: var(--color-secondary)!important;
+  background-color: var(--color-secondary) !important;
 }
