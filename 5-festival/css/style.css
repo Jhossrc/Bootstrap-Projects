@@ -156,3 +156,17 @@ body {
 .fecha span:first-child::before {
   display: none;
 }
+
+/* Boletos */
+.boletos .precio {
+  font-size: 2rem;
+}
+
+.boletos .active {
+  background-color: var(--color-quaternary)!important;
+  border-color:  var(--color-quaternary)!important;
+}
+
+.list-group-item-success {
+  background-color: var(--color-secondary)!important;
+}
