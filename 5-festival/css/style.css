@@ -46,6 +46,10 @@ body {
   color: var(--color-tertiary-dark)!important;
 }
 
+.fixed-top .active {
+  background-color: var(--color-quaternary)!important;
+}
+
 .navbar-brand {
   font-size: 1.8rem;
   font-weight: 400;
