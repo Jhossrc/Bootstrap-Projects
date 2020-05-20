@@ -139,3 +139,20 @@ body {
 .horario.bg-success li:nth-child(even) {
     background-color: var(--color-secondary-dark)!important;
 }
+
+/* Fecha */
+.fecha {
+  font-size: 2.8rem;
+}
+
+.fecha span {
+  font-weight: 700;
+}
+
+.fecha span::before {
+  content: '-';
+}
+
+.fecha span:first-child::before {
+  display: none;
+}
