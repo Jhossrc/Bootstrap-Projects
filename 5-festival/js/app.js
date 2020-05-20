@@ -11,6 +11,17 @@ window.addEventListener('scroll', (e) => {
   }
 })
 
+/* Smooth Scroll con JS Nativo */
+document.querySelectorAll('.navbar .nav-link').forEach(enlace => {
+  enlace.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector(enlace.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+});
+
 
 /* JQuery Countdown */
 $(document).ready(function () {
