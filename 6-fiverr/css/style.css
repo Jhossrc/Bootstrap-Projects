@@ -18,6 +18,19 @@ h2 {
     font-weight: 700!important;
 }
 
+/* Scroll */
+.header-scroll .nav-link {
+    color: #777777!important;
+}
+
+.header-scroll .btn-outline-success{
+    color: var(--color-primary)!important;
+}
+
+.header-scroll .btn-outline-success:hover{
+    color: white!important;
+}
+
 /* Header */
 .header {
     background-image: url(../img/hero.jpg);
