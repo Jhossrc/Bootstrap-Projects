@@ -81,3 +81,12 @@ h2 {
     opacity: 1;
     padding-top: 10px;
 }
+
+/* PRO */
+.bg-dark{
+    background-color: var(--color-gray-primary)!important;
+}
+
+.nuevo-pro .row {
+    min-height: 25rem;
+}
