@@ -90,3 +90,38 @@ h2 {
 .nuevo-pro .row {
     min-height: 25rem;
 }
+
+.primeros-pasos .descripcion {
+    flex: 1 0 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .primeros-pasos .descripcion {
+        flex: 1 0 20%;
+    }
+}
+
+.primeros-pasos .logotipo {
+    background-image: url(../img/servicio1.png);
+}
+
+.primeros-pasos .social-media {
+    background-image: url(../img/servicio2.png);
+}
+
+.primeros-pasos .audio {
+    background-image: url(../img/servicio3.png);
+}
+
+.primeros-pasos .traducciones {
+    background-image: url(../img/servicio4.png);
+}
+
+.primeros-pasos .wordpress {
+    background-image: url(../img/servicio5.png);
+}
+
+.primeros-pasos .descripcion {
+    height: 20rem;
+    background-size: cover;
+}
