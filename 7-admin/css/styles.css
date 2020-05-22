@@ -26,18 +26,51 @@ body.login .contenido {
     box-shadow: 0 17px 39px -6px rgba(0, 0, 0, .76);
 }
 
+.bg-success,
+.btn-success {
+    background-color: var(--color-primary)!important;
+    border-color: var(--color-primary)!important;
+}
+
 .btn-primary,
 .bg-primary {
     background-color: var(--color-secondary)!important;
 }
 
+.bd-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1100;
+}
+
 aside {
-    width: 280px;
+    width: 260px;
     height: 100%;
     position: fixed;
     margin-top: 56px;
     top: 0;
     bottom: 0;
     z-index: 1000;
+}
+
+main {
+    margin-left: 260px;
+    position: relative;
+    left: 0;
+    min-height: 100%;
+}
+
+.boton {
+    min-height: 120px;
+}
+
+.boton i {
+    font-size: 3rem;
+}
+
+.boton a:hover {
+    color: var(--color-blue)!important;
+    text-decoration: none;
 }
 
