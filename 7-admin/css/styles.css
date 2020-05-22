@@ -1,8 +1,33 @@
 :root {
-    --primero: #8bc34a;
-    --segundo: #03a9f4;
-    --tercero: #ab47bc;
-    --cuarto: #ffb300;
-    --gris: #ecf0f5;
-    --azul: #25476a;
+    --color-primary: #8bc34a;
+    --color-secondary: #03a9f4;
+    --color-tertiary: #ab47bc;
+    --color-quaternary: #ffb300;
+    --color-gray: #ecf0f5;
+    --color-blue: #25476a;
 }
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+body.login {
+    background-image: url(../img/libros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.login .contenido {
+    border-radius: 10px;
+    box-shadow: 0 17px 39px -6px rgba(0, 0, 0, .76);
+}
+
+.btn-primary,
+.bg-primary {
+    background-color: var(--color-secondary)!important;
+}
+
