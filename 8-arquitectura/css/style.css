@@ -3,7 +3,11 @@ body {
 }
 
 h1,h2,h3 {
+  font-weight: 900;
+}
 
+h2 {
+  font-size: 3.6rem;
 }
 
 .header {
@@ -50,4 +54,18 @@ h1,h2,h3 {
     background-repeat: no-repeat;
     background-position: center center;
     margin-right: 1rem;
+}
+
+/* Nosotros */
+.sobre-nosotros-bg {
+    min-height: 44rem;
+    background-image: url(../img/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-nosotros-bg {
+        min-height: 36rem;
+    }
 }
