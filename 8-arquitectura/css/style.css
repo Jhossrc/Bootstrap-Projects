@@ -95,3 +95,8 @@ h3 {
     background-image: url(../img/modelo_premier.jpg);
     background-position: top left;
 }
+
+.elite {
+    background-image: url(../img/modelo_elite.jpg);
+    background-position: top right; 
+}
