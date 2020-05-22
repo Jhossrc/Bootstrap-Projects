@@ -31,3 +31,13 @@ body.login .contenido {
     background-color: var(--color-secondary)!important;
 }
 
+aside {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    margin-top: 56px;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
