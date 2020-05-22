@@ -10,6 +10,10 @@ h2 {
   font-size: 3.6rem;
 }
 
+h3 {
+    font-size: 3rem;
+}
+
 .header {
     height: 40rem;
     background-image: url(../img/superior.jpg);
@@ -68,4 +72,21 @@ h2 {
     .sobre-nosotros-bg {
         min-height: 36rem;
     }
+}
+
+/* Modelos */
+.modelo {
+    background-repeat: no-repeat;
+    min-height: 40rem;
+}
+
+@media screen and (min-width:768px) {
+    .modelo {
+        min-height: 30rem;
+    }
+}
+
+.basico {
+    background-image: url(../img/modelo_basico.jpg);
+    background-position: top right;
 }
